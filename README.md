@@ -8,5 +8,5 @@ Homebrew Tap for the [Imgbrd-Grabber](https://github.com/Bionus/imgbrd-grabber) 
 ## Usage
 ```
 brew tap Bionus/imgbrd-grabber
-brew install cask imgbrd-grabber-nightly
+brew install imgbrd-grabber-nightly
 ```
