@@ -7,6 +7,8 @@ cask 'imgbrd-grabber-nightly' do
     desc 'Very customizable imageboard/booru downloader with powerful filenaming features'
     homepage 'https://bionus.github.io/imgbrd-grabber/'
 
+    conflicts_with cask: 'imgbrd-grabber'
+
     app 'grabber.app'
 
     zap trash: "~/Library/Preferences/Bionus/Grabber",
