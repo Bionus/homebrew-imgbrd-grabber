@@ -7,6 +7,11 @@ cask "imgbrd-grabber" do
 	desc "Very customizable imageboard/booru downloader with powerful filenaming features"
     homepage "https://bionus.github.io/imgbrd-grabber/"
 
+	livecheck do
+		url :url
+		strategy :github_latest
+	end
+
 	conflicts_with cask: "imgbrd-grabber-nightly"
 
     app "grabber.app"
