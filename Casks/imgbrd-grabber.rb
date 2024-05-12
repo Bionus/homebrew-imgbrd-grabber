@@ -1,6 +1,6 @@
 cask "imgbrd-grabber" do
-  version "7.12.0"
-  sha256 "d7a4f56d880ab7d051fe1ffe6c41ad34f4aeb1c29051acdec39bea94e939bbb3"
+  version "7.12.1"
+  sha256 "e2ff30cbbd487a9aaa681fbaf31b74a928d779dad8dd48a49a72cf23df8cdd72"
 
   url "https://github.com/Bionus/imgbrd-grabber/releases/download/v#{version}/Grabber_v#{version}.dmg",
       verified: "github.com/Bionus/imgbrd-grabber/"
