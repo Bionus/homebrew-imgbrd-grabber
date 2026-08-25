@@ -1,6 +1,6 @@
 cask "imgbrd-grabber" do
-  version "7.13.0"
-  sha256 "1b78cab74860d87543c99ef1ae49895fa6d5df8f1d66b7a8bbdf0de5d4eed6c7"
+  version "7.14.0"
+  sha256 "b9d0893ea59c4f416d068067fe431757bfb36758ff6ff1d8541bfb1e0c1494b5"
 
   url "https://github.com/Bionus/imgbrd-grabber/releases/download/v#{version}/Grabber_v#{version}.dmg",
       verified: "github.com/Bionus/imgbrd-grabber/"
@@ -14,6 +14,7 @@ cask "imgbrd-grabber" do
   end
 
   conflicts_with cask: "imgbrd-grabber-nightly"
+  depends_on :macos
 
   app "grabber.app"
 
